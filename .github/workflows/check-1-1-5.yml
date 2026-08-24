@@ -8,4 +8,4 @@ jobs:
   check:
     uses: ant-lab-ru/es-test/.github/workflows/check-1-1-5.yml@master
     secrets:
-      ES_ACCOUNT_SECRET: f4815719d4e3fe8be8d9f106b54e88c92ae4d4d0
+      Test: ${{ secrets.TEST }}
