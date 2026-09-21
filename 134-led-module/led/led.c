@@ -7,7 +7,7 @@ static bool led_state = false;
 
 void led_init(void)
 {
-    // инициализируем пин светодиода и настраиваем его на выход
+    gpio_set_dir(LED_PIN, GPIO_OUT);
     led_set(false);
 }
 
